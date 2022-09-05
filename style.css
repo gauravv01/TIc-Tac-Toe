@@ -1,0 +1,52 @@
+:root {
+    --text: #dbdfac;
+    --bg: #2a1e5c;
+    --btn-bg: #d7f171;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    color: var(--text);
+    background-color: var(--bg);
+    font-family: 'Nerko One', cursive;
+  }
+
+  #menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu div{
+    margin: 5px;
+  }
+  #restart{
+    padding: 10px;
+    margin: 5px;
+    color: var(--bg);
+    border: black solid 2px;
+    border-radius: 5px;
+    background-color: #d7f171;
+  }
+
+  #boxes{
+    height: 30rem;
+    width: 30rem;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+  }
+
+  #boxes div{
+    height: 10rem;
+    width: 10rem;
+    font-size: 4rem;
+    color:darkgray;
+    text-align: center;
+    align-items: center;
+  }
